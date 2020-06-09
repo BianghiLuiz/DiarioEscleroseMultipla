@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/transparente"
+    tools:context=".Activitys.AddAnotacoesActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="302dp"
+        android:layout_height="83dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041"
+        app:srcCompat="@drawable/cm" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Eventos Recentes"
+        android:textColor="@color/colorTexto"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+
+    <CheckBox
+        android:id="@+id/cheSMS"
+        android:layout_width="407dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="44dp"
+        android:text="Banho quente"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+
+    <CheckBox
+        android:id="@+id/cheEmail"
+        android:layout_width="406dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        android:text="Sauna"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cheSMS" />
+
+    <CheckBox
+        android:id="@+id/cheFone"
+        android:layout_width="406dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="116dp"
+        android:text="Cigarro"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cheEmail" />
+
+    <CheckBox
+        android:id="@+id/cheFone5"
+        android:layout_width="406dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="152dp"
+        android:text="Tomar sol"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cheEmail" />
+
+    <CheckBox
+        android:id="@+id/cheFone6"
+        android:layout_width="406dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="296dp"
+        android:text="Roupa pesadas ou quentes"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cheEmail" />
+
+    <CheckBox
+        android:id="@+id/cheFone10"
+        android:layout_width="406dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="260dp"
+        android:text="Temperatura ambiente > 30°C"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cheEmail" />
+
+    <CheckBox
+        android:id="@+id/cheFone9"
+        android:layout_width="406dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="188dp"
+        android:text="Secador de Cabelo"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cheEmail" />
+
+    <CheckBox
+        android:id="@+id/cheFone7"
+        android:layout_width="406dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="224dp"
+        android:text="Alimentos quentes ou picantes"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cheEmail" />
+
+    <CheckBox
+        android:id="@+id/cheFone4"
+        android:layout_width="406dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="80dp"
+        android:text="Estresse mental"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.034"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cheEmail" />
+
+    <CheckBox
+        android:id="@+id/cheFone3"
+        android:layout_width="406dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="45dp"
+        android:text="Menstruação"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cheEmail" />
+
+    <CheckBox
+        android:id="@+id/cheFone2"
+        android:layout_width="406dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        android:text="Exercício Físico"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cheEmail" />
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="177dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="84dp"
+        android:background="@drawable/botao_verde"
+        android:text="Confirmar"
+        android:textColor="@color/colorApp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnOk3"
+        android:layout_width="173dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="84dp"
+        android:background="@drawable/botao_vermelho"
+        android:onClick="onClickRetornar"
+        android:text="Voltar"
+        android:textColor="@color/colorApp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.925"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

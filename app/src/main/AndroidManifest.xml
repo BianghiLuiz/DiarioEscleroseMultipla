@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.visual.EscleroseMultipla">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Sintomas.Humor"></activity>
+        <activity android:name=".Sintomas.Fadiga" />
+        <activity android:name=".Sintomas.Cognitivos" />
+        <activity android:name=".Sintomas.Sexuais" />
+        <activity android:name=".Sintomas.Intestinais" />
+        <activity android:name=".Sintomas.Urinarios" />
+        <activity android:name=".Sintomas.Motores" />
+        <activity android:name=".Sintomas.Visuais" />
+        <activity android:name=".Sintomas.Sensoriais" />
+        <activity android:name=".Activitys.Sintomas" />
+        <activity android:name=".Activitys.EmergenciaActivity" />
+        <activity android:name=".Activitys.AddRemediosActivity" />
+        <activity android:name=".Activitys.Remedios" />
+        <activity android:name=".Activitys.Orientacoes" />
+        <activity android:name=".Activitys.MenuActivity" />
+        <activity android:name=".Activitys.CheckListActivity" />
+        <activity android:name=".Activitys.EditLivroActivity" />
+        <activity
+            android:name=".Activitys.ListAnotacoesActivity"
+            android:label="@string/title_activity_principal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activitys.AddAnotacoesActivity" />
+        <activity android:name=".Activitys.TelaInicialActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activitys.CalendarActivity" />
+    </application>
+
+</manifest>

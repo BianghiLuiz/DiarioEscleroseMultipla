@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.visual.EscleroseMultipla.Activitys.EmergenciaActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="302dp"
+        android:layout_height="83dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041"
+        app:srcCompat="@drawable/cm" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckList"
+        android:textColor="@color/colorTexto"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <CheckBox
+        android:id="@+id/cheSMS"
+        android:layout_width="406dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+        android:text="Dormência"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <CheckBox
+        android:id="@+id/cheEmail"
+        android:layout_width="406dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        android:text="Tontura"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cheSMS" />
+
+    <CheckBox
+        android:id="@+id/cheFone"
+        android:layout_width="406dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="116dp"
+        android:text="Visão dupla"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cheEmail" />
+
+    <CheckBox
+        android:id="@+id/cheFone5"
+        android:layout_width="406dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="152dp"
+        android:text="Visão turva"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cheEmail" />
+
+    <CheckBox
+        android:id="@+id/cheFone6"
+        android:layout_width="406dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="296dp"
+        android:text="Nistagmo"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cheEmail" />
+
+    <CheckBox
+        android:id="@+id/cheFone10"
+        android:layout_width="406dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="260dp"
+        android:text="Fraqueza nos braços"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cheEmail" />
+
+    <CheckBox
+        android:id="@+id/cheFone9"
+        android:layout_width="406dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="188dp"
+        android:text="Fraqueza nas pernas"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cheEmail" />
+
+    <CheckBox
+        android:id="@+id/cheFone7"
+        android:layout_width="406dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="224dp"
+        android:text="Fraqueza em uma metade do corpo"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cheEmail" />
+
+    <CheckBox
+        android:id="@+id/cheFone4"
+        android:layout_width="406dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="80dp"
+        android:text="Fraqueza dos músculos da face"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.034"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cheEmail" />
+
+    <CheckBox
+        android:id="@+id/cheFone3"
+        android:layout_width="406dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="45dp"
+        android:text="Desequilíbrio"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cheEmail" />
+
+    <CheckBox
+        android:id="@+id/cheFone2"
+        android:layout_width="406dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        android:text="Falta de coordenação dos movimentos"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cheEmail" />
+
+    <CheckBox
+        android:id="@+id/cheFone11"
+        android:layout_width="406dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="332dp"
+        android:text="Dificuldade para segurar objetos"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cheEmail" />
+
+    <CheckBox
+        android:id="@+id/cheFone12"
+        android:layout_width="406dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="368dp"
+        android:text="Dificuldade para escrever "
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cheEmail" />
+
+    <CheckBox
+        android:id="@+id/cheFone13"
+        android:layout_width="406dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="404dp"
+        android:text="Dificuldade para se concentrar"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cheEmail" />
+
+    <Button
+        android:id="@+id/btnOk2"
+        android:layout_width="182dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="68dp"
+        android:background="@drawable/botao_vermelho"
+        android:onClick="onClickRetornar"
+        android:text="Voltar"
+        android:textColor="@color/colorApp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.976"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="182dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="68dp"
+        android:background="@drawable/botao_verde"
+        android:text="Confirmar"
+        android:textColor="@color/colorApp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.033"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

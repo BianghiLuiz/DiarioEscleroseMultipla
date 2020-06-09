@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/transparente"
+    tools:context="br.com.visual.EscleroseMultipla.Activitys.Sintomas">
+
+    <Button
+        android:id="@+id/btncalendario3"
+        android:layout_width="284dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="195dp"
+        android:background="@drawable/botao_verde"
+        android:onClick="onClickSensoriais"
+        android:text="Sensoriais"
+        android:textColor="@color/colorApp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btncalendario4"
+        android:layout_width="284dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="185dp"
+        android:background="@drawable/botao_verde"
+        android:onClick="onClickVisuais"
+        android:text="Visuais"
+        android:textColor="@color/colorApp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.122" />
+
+    <Button
+        android:id="@+id/btncalendario5"
+        android:layout_width="284dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="175dp"
+        android:background="@drawable/botao_verde"
+        android:onClick="onClickMotores"
+        android:text="Motores"
+        android:textColor="@color/colorApp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.242" />
+
+    <Button
+        android:id="@+id/btncalendario6"
+        android:layout_width="284dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/botao_verde"
+        android:onClick="onClickUrinarios"
+        android:text="Urinários"
+        android:textColor="@color/colorApp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.377" />
+
+    <Button
+        android:id="@+id/btncalendario7"
+        android:layout_width="284dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/botao_verde"
+        android:onClick="onClickSexuais"
+        android:text="Sexuais"
+        android:textColor="@color/colorApp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.596" />
+
+    <Button
+        android:id="@+id/btncalendario9"
+        android:layout_width="284dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="155dp"
+        android:background="@drawable/botao_verde"
+        android:onClick="onClickCognitivos"
+        android:text="Cognitivos"
+        android:textColor="@color/colorApp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.671" />
+
+    <Button
+        android:id="@+id/btncalendario10"
+        android:layout_width="284dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/botao_verde"
+        android:onClick="onClickFadiga"
+        android:text="Fadiga"
+        android:textColor="@color/colorApp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.782" />
+
+    <Button
+        android:id="@+id/btncalendario8"
+        android:layout_width="284dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/botao_verde"
+        android:onClick="onClickIntestinais"
+        android:text="Intestinais"
+        android:textColor="@color/colorApp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="302dp"
+        android:layout_height="83dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046"
+        app:srcCompat="@drawable/cm" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

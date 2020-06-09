@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Nome da Anotação"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/colorTexto" />
+
+    <TextView
+        android:id="@+id/txtEspaco3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/txtAutor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:text="Descrição"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorText" />
+
+        <TextView
+            android:id="@+id/txtAno"
+            android:layout_width="1dp"
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Horário"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorApp"
+            app:srcCompat="@drawable/nota" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtEspaco2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
